@@ -2,8 +2,7 @@ package com.anotations;
 
 public class TriggerSamples {
 
-	private TriggerSamples() {
-	};
+	private TriggerSamples() {};
 
 	@Trigger("hello")
 	public static boolean hello() {
